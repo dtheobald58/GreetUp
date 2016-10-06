@@ -69,3 +69,6 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\GreetUp\GreetUp\bin\r
 c:\users\wecancodeit\documents\visual studio 2015\Projects\GreetUp\GreetUp\bin\roslyn\System.IO.FileSystem.Primitives.dll
 c:\users\wecancodeit\documents\visual studio 2015\Projects\GreetUp\GreetUp\bin\roslyn\vbc.exe.config
 c:\users\wecancodeit\documents\visual studio 2015\Projects\GreetUp\GreetUp\bin\roslyn\vbc.rsp
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.Migrations.InitialCreate.resources
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.csproj.GenerateResource.Cache
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\GreetUp\GreetUp\obj\Debug\GreetUp.Migrations.GuestNumberManagement.resources

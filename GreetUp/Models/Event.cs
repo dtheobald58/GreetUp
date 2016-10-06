@@ -15,7 +15,12 @@ namespace GreetUp.Models
         public string OrganizerName { get; set; }
         public DateTime EventDate { get; set; }
         public int MaxNumOfGuests { get; set; }
+        public int CurrentNumOfGuests { get; set; }
 
+        public Event()
+        {
+            CurrentNumOfGuests = 0;
+        }
         
 
     }

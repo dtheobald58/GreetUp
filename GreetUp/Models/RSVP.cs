@@ -18,5 +18,6 @@ namespace GreetUp.Models
         [ForeignKey("Event")]
         public int EventID { get; set; }
         public virtual Event Event { get; set; }
+
     }
 }
