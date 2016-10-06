@@ -12,9 +12,13 @@ namespace GreetUp.Models
         public int ID { get; set; }
 
         public string Description { get; set; }
+        [Display(Name = "Organizer Name")]
         public string OrganizerName { get; set; }
+        [Display(Name ="Event Date")]
         public DateTime EventDate { get; set; }
+        [Display(Name ="Max Number of Guests")]
         public int MaxNumOfGuests { get; set; }
+        [Display(Name ="Current Number of Guests")]
         public int CurrentNumOfGuests { get; set; }
 
         public Event()

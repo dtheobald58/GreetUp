@@ -11,7 +11,9 @@ namespace GreetUp.Models
     {
         [Key]
         public int ID { get; set; }
+        [Display(Name = "Primary Guest Name")]
         public string PrimaryGuestName { get; set; }
+        [Display(Name = "Number of Guests")]
         public int NumOfGuests { get; set; }
         public string Email { get; set; }
 
