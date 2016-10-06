@@ -1,4 +1,13 @@
-﻿body {
+﻿.jumbotron{
+    background-image:url('../Images/happy-people.jpg');
+    background-size:cover;  
+}
+.jumboText{
+    background-color:rgba(153, 153, 102, 0.75);
+    padding:1%;  
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -23,9 +32,7 @@ textarea {
     max-width: 280px;
 }
 /*Set jumbotron background*/
-.jumbotron {
-    background-image: url('../Images/happy-people.jpg');
-}
-.navColors{
-    color:white;
+
+.headColor{
+    color:blue;
 }
