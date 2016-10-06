@@ -1,0 +1,50 @@
+﻿@model GreetUp.Models.RSVP
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RSVP</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.OrganizerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.OrganizerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryGuestName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryGuestName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumOfGuests)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumOfGuests)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
